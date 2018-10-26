@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style_index.css" /> 
+		<meta charset="utf-8" />
+		<title>CheatSheet</title>
+	</head>
+	<body>
+		<h6>by Rausch-Schott Manuel</h6>
+		
+		<pre>last updated 26.10.2018</pre>
+		
+		<br><br><br><br><br><br>
+		<hr>
+		<br>
+		<h2 style="color: black; text-align:center; margin-left: 0px; margin-top: 1px;"><b>TABLE OF CONTENTS:</b></h2>
+		<hr><hr>
+		<br><br>
+		
+		<a title="Jump to General Information Section" href="#GeneralInfo" >General Information</a><br>
+		
+		<ul>
+			<li><a title="Jump to the HTML Section" href="#HTML" style="color:black;"><b>HTML:</b></a></li>
+		</ul>
+		
+		<a title="Jump to Structure of an HTML Document Section" href="#HTMLStructure" >Structure of an HTML Document</a><br>
+		<a title="Jump to HTML Elements Section" href="#HTMLElements" >HTML Elements</a><br>
+		<a title="Jump to HTML Attributes Section" href="#HTMLAttributes" >HTML Attributes</a><br>
+		<a title="Jump to HTML Headings Section" href="#HTMLHeadings" >HTML Headings</a><br>
+		<a title="Jump to HTML Paragraphs Section" href="#HTMLParagraphs" >HTML Paragraphs</a><br>
+		<a title="Jump to HTML Comments Section" href="#HTMLComments" >HTML Comments</a><br>
+		<a title="Jump to HTML Links Section" href="#HTMLLinks" >HTML Links</a><br>
+		<a title="Jump to HTML Images Section" href="#HTMLImages" >HTML Images</a><br>
+		<a title="Jump to HTML Head Section" href="#HTMLHead" >HTML Head</a><br>
+		<a title="Jump to HTML Lists Section" href="#HTMLLists" >HTML Lists</a><br>
+		<a title="Jump to HTML Table Section" href="#HTMLTables" >HTML Tables</a><br>
+		<ul>
+			<li><a title="Jump to the CSS Section" href="#CSS" style="color: black;" ><b>CSS:</b></a></li>
+		</ul>
+		
+		<a title="Jump to CSS Syntax Section" href="#CSSSyntax" >CSS Syntax</a><br>
+		<a title="Jump to CSS Colors Section" href="#CSSColors" >CSS Colors</a><br>
+		<a title="Jump to CSS Background Section" href="#CSSBackground" >CSS Background</a><br>
+		<a title="Jump to CSS Text Section" href="#CSSText" >CSS Text</a><br>
+		<a title="Jump to CSS Fonts Section" href="#CSSFonts" >CSS Fonts</a><br>
+		<a title="Jump to CSS Style Links Section" href="#CSSStyleLinks" >CSS Style Links</a><br>
+		<a title="Jump to CSS Combinators Section" href="#CSSCombinators" >CSS Combinators</a><br>
+		<a title="Jump to CSS Pseudo-Classes Section" href="#CSSPseudoClasses" >CSS Pseudo-Classes</a><br>
+		<a title="Jump to CSS Lists Section" href="#CSSLists" >CSS Lists</a><br>
+		<a title="Jump to CSS Tables Section" href="#CSSTables">CSS Tables</a>
+		
+		<hr>
+		<hr>
+		<br><br><br><br><br><br><br><br><br>
+		<hr>
+		<h2 id="GeneralInfo">General(history, etc.)</h2>
+		<hr>
+		<p><a title="Go to General information" href= "general_CheatSheet_Rausch-Schott_Manuel.html" style="color:black;" > To General Information</a>
+		</p>
+		
+		<hr>
+		<h1 id="HTML">HTML</h1>
+		<hr>
+		
+		<hr>
+		<h2 id="HTMLStructure"><b>Structure of an HTML Document</b></h2>
+		<hr>
+		<p>1. The first thing you have to write is &lt;&excl;Doctype html&gt;: <br>
+			The &lt;&excl;Doctype html&gt; tells the browser what version of HTML this page is written in.<br>
+			2. The actual HTML document starts with the &lt;html&gt; and ends with the &lt;/html&gt; tag <br>
+			This tag tells the browser that this is an HTML document. <br>
+			3. The two important tags that come next are &lt;head&gt;&lt;/head&gt; and the &lt;body&gt;&lt;/body&gt; <br>
+			They structure your program as well. <br>
+			4. Now you write your HTML page/document
+		</p>
+		
+		<hr>
+		<h2 id="HTMLElements"><b>HTML Elements</b></h2>
+		<hr>
+		<p>The HTML element is anything between a start and an end tag. for example: &lt;h1&gt;This is heading nr.1&lt;/h1&gt; <br>
+			It is also possible to nest HTML elements for example the head element is nested inside the html element.
+		</p>
+		
+		<hr>
+		<h2 id="HTMLAttributes"><b>HTML Attributes</b></h2>
+		<hr>
+		<p>There are different types of Attributes: <br> 1. There's the href attribute. <br> The href attribute is used for linking. Its written inside the &lt;a&gt; tag. Example: &lt;a href="https://google.com"&gt;That link launches Google&lt;/a&gt; <br>
+		2. The src attribute. <br>It is used for the filename or filesource from an image. An image is defined with the &lt;img&gt; tag. You write the src attribute as following: &lt;img src="imagename.png"&gt; <br>
+		3. The width and height attributes. <br> They are for example used for resizing pictures. The syntax is quite simmilar to the previous one(the src is neededfor the imagepath/imagename): &lt;img src="imagename.png" width="500" height="600"&gt; <br>
+		4. The alt attribute. <br> That attribute is for example used for 'imagehints'. But they can also be useful if the image was not found. You write it that way: &lt;img src="imagename.png" alt="Text you get displayed by hovering over it or when the image was not found"&gt; <br>
+		5. The style attribute. <br> That is used to style your specific tag element without a css file. You write it like this: &lt;p style="color:red"&gt;This paragraph is getting displayed red&lt;/p&gt; <br>
+		6. The lang attribute. <br> This attribute you use to declare the language. In the html tag it is written like this: &lt;html lang="de"&gt; <br>
+		7. The title attribute. <br> This is an attribute which sets a title of a page or displays a text when you hover over for example an paragraph. It looks like this when you write it: &lt;p title="Tooltip/hovertipp"&gt; <br>
+		</p>
+		
+		<hr>
+		<h2 id="HTMLHeadings"><b>HTML Headings</b></h2>
+		<hr>
+		<p>There are different sized headings from 1 to 6. They are definden with the &lt;h&gt; tag. You write &lt;h1&gt; to define a heading one(big). And you write &lt;h6&gt; for the smalest heading.  <br> But you can make headings even bigger/smaller with the style attribute and the font-size. <br> Use the &lt;hr&gt; tag for drawing a line over the page. 
+		</p>
+		
+		<hr>
+		<h2 id="HTMLParagraphs"><b>HTML Paragraphs</b></h2>
+		<hr>
+		<pre>
+		The parapgraph you write with &lt;p&gt;. You can also do &lt;pre&gt; and this will let your text look like that text that is standing here.
+		</pre>
+		
+		<hr>
+		<h2 id="HTMLComments"><b>HTML Comments</b></h2>
+		<hr>
+		<p>Ifyou want to comment your Page you use the &excl; as an start tag. The syntax looks like this: &lt;&excl;-- This text will not be displayed. It is a comment --&gt;
+		</p>
+		
+		<hr>
+		<h2 id="HTMLLinks"><b>HTML Links</b></h2>
+		<hr>
+		<p> The syntax starts with an &lt;a&gt; tag. <br> non-local adresses you get with &lt;a href="url"&gt;This text will be displayed and there you will be able to click&lt;/a&gt; <br> For local adresses(for example other files/documents) you write: &lt;a href="localpath"&gt;This will take you to another file&lt;/a&gt; <br>
+		Use the target attribute to define how the action has to be done. For example you want to open the link in a new window/tab then you write: &lt;a href="url/filepath" target="_blank"&gt;This will open the link in a new tab.&lt;/a&gt; <br>
+		The target options are: <br>
+		_blank       --&gt; open in new tab/window <br>
+		_self        --&gt; opens in the same window (default) <br>
+		_parent      --&gt; opens in the parrent frame <br>
+		_top         --&gt; opens in the full body of the window <br>
+		anyframename --&gt; opens in a frame with the given name <br> <br>
+		You can also use the title atribute here to set a tooltip. <br> There is also possible to create bookmarks/jumpers. You create them in an heading with the attribute id and you write an # before the name. For example: &lt;h2 id="Jumper1"&gt;Jumper one&lt;/h2&gt; Then you say &lt;a href="#Jumper1"&gt;Jump to Jumper1&lt;/a&gt; <br>
+		It is also possible to navigate to other files's bookmarks when you write &lt;a href="filename.html#JumperX"&gt;Jump to the page filename.html to the JumperX&lt;/a&gt; <br>
+		</p>
+		
+		<hr>
+		<h2 id="HTMLImages"><b>HTML Images</b></h2>
+		<hr>
+		<p> <b>Syntax: &lt;img src="url/filepath"&gt; </b> <br> You can use the alt attribute as well. Use the style="width:500px;height:500px;" or the width and height attributes. <br>
+		Example: <b>Suggested: &lt;img src="url" style="width:500px;height:500px;"&gt; </b> or &lt;img src="url" width="500" height="500"&gt; <br>
+		The image can also be in another folder or on another server. Then you write the filepath with <b>/</b> in between and at the end the image and the .xy ending or if it is on another server you write the url of the server aond the same as the folder you write the image and the .xy ending.
+		</p>
+		
+		<hr>
+		<h2 id="HTMLHead"><b>HTML Head</b></h2>
+		<hr>
+		<p> In the Head you habe certain elements. You have: <br> <br>
+		1. &lt;head&gt;:  There you write everything thats coming next in this chapter.<br>
+		2. &lt;title&gt;: This defines the title of a document. Provides a title when added to favorites or displays a title for the page in search engine results<br>
+		3. &lt;meta&gt;: It specifies which charset is used, page description, keywords, author, and other metadata. <br>
+		You write: <b>&lt;meta xy&gt; </b> <br>
+		Instead of xy you can write: <br> charset="utf-8" to set the character set to utf-8 <br> name="description content="description goes here" <br> name="keywords" content="here you write your keywords a person enters to see your webpage. For example: HTML, CSS, JavaScript" <br>
+		name="author" content="Rausch-Schott Manuel" <br> http-equiv="refresh" content="seconds for interval of refreshing"
+		</p>
+		
+		<hr>
+		<h2 id="HTMLLists"><b>HTML Lists</b></h2>
+		<hr>
+		<h3><b>Unordered List:</b></h3>
+		<p>The unordered list starts with &lt;ul&gt; and ends with its end tag.<br> The List items start with &lt;li&gt; and end with their end tag. They are marked with bullets(small black circles) by default.</p>
+		<h3><b>Ordered List:</b></h3>
+		<p>The ordered list starts with &lt;ol&gt; and ends also with its end tag.<br> The List items start with &lt;li&gt; and end with their end tag. They are marked with numbers by default.</p>
+		<h3><b>Description List:</b></h3>
+		<p>The desciption list starts with &lt;dl&gt; and ends with its end tag. <br> The List item starts with &lt;dt&gt; and the description of the item starts with &lt;dd&gt;. Of course don't forget the end tags.</p>
+		<p>Lists can also be nested(lists inside lists).</p>
+		
+		<hr>
+		<h2 id="HTMLTables"><b>HTML Tables</b></h2>
+		<hr>
+		<p>Tables are defined with the &lt;table&gt; tag. <br>
+		The rows you define with &lt;tr&gt;. <br>
+		The Headers you define with &lt;th&gt;. By default they are bold an centered<br>
+		And the data/cells you define with &lt;td&gt; <br>
+		Use the &lt;caption&gt; tag to add a caption. <br>
+		To customise your table see <a href="#CSSTables" >CSS Tables.</a>
+		</p>		
+		
+		<hr>
+		<h1 id="CSS"><b>CSS</b></h1>
+		<hr>
+		
+		<h2 id="CSSSyntax"><b>CSS Syntax</b></h2>
+		<hr>
+		<p>The Syntax of CSS is very simple. First you write the selector(tag in HTML) then you write these brackets { } and in between them you write: property:value; <br> An example is: <br> <b>p { <br>  color:blue; <br>  text-align:left; <br> }</b> <br>
+		There are different selectors: <br>
+		1. element selector <br> That is the one we have an example right here. <br>
+		2. id selector <br> That is a selector for styling ids(bookmarks) instead of the p from the example you write #idname <br>
+		3. class selector <br> This selector styles a whole class(class is a attribute) instead of the p from the example you write a . before and then the class that has to be styled <br>
+		At last you can also group selectors. therefore you write the selectors with a , in between <br>
+		</p>
+		
+		<hr>
+		<h2 id="CSSColors"><b>CSS Colors</b></h2>
+		<hr>
+		<p> The colors in CSS can be set by writing the names or by hexadecimal code or more <br> we focus on names and hex <br>
+		By Names: Blue, Tomato(red), Orange, LightGray, MediumSeaGreen, ... <br>
+		By Hex-Code: Syntax: <b>#rrggbb</b> red red green green blue <br> #FF0000(red), #0000FF(blue), ...
+		</p>
+		
+		<hr>
+		<h2 id="CSSBackground"><b>CSS Background</b></h2>
+		<hr>
+		<p> <b>background-color:</b> Then you write the color name or the hex code or some other ways specifying a color <br>
+		<b>background-image:</b> Then you write: url("imagename.png"); <br>
+		<b>background-repeat:</b> Then you write repeat-x or repeat-y; <br>
+		<b>background-attachment:</b> Then you write fixed;<br>
+		</p>
+		
+		<hr>
+		<h2 id="CSSText"><b>CSS Text</b></h2>
+		<hr>
+		<p> <b>color:</b> Then write the color <br>
+		<b>text-align:</b> Then write left, right, centered or justified <br>
+		justify = left and right margin is straight like in newspapers <br>
+		<b>text-decoration:</b> Then write none, overline, line-through, underline, ... <br>
+		There are: <br>
+		<b>none</b> = nothing; <br>
+		<b>oberline</b> = line above the text; <br>
+		<b>line-through</b> = line through the text <br>
+		<b>underline</b> = line under the text <br> <br>
+		<b>text-transform:</b> Then write upercase, lowercase, capitalize, ... <br>
+		<b>upercase</b> = uppercase letters <br>
+		<b>lowercase</b> = lowercase letters <br>
+		<b>capitalize</b> = capital letter in the beginning <br> <br>
+		</p>
+		
+		<hr>
+		<h2 id="CSSFonts"><b>CSS Fonts</b></h2>
+		<hr>
+		<p>The difference between Sans serif and serif is that the sans serif is straighter. <br> <br>
+		<b>font-family:</b> Then write Fonts. More than one because if the browser doesn not support the first he tries the next and so on <br>
+		<b>font-style:</b> Then write normal, italic, oblique, ... <br>
+		<b>font-size:</b> Then write a size either in pixels(for example: 40px) or in em(40px/16 = 2.5em) <br>
+		<b>font-weight</b> Then write normal, bold, ...
+		</p>
+		
+		<hr>
+		<h2 id="CSSStyleLinks"><b>CSS Style Links</b></h2>
+		<hr>
+		<p>You can set a link-color, font family, background, ... <br>
+		But you can always specify the things. For example if the link should only be red if it was not clicked then you write a:link. <br>
+		You can also write <b>a:link</b>, <b>a:visited</b>, <b>a:hover</b>, <b>a:active</b> <br>
+		
+		<b>BUT a:hover MUST come after a:link and a:visited </b> and <b>a:active MUST come after a:hover</b>
+		</p>
+		
+		<hr>
+		<h2 id="CSSCombinators"><b>CSS Combinators</b></h2>
+		<hr>
+		<p> There are for Example <br><b>div p { <br> }</b> <br>
+		or <br> <b>div > p { <br> }</b> <br>
+		or <br> <b>div + p { <br> }</b> <br>
+		or <br> <b>div ~ p { <br> } </b>
+		</p>
+		
+		<hr>
+		<h2 id="CSSPseudoClasses"><b>CSS Pseudo-Classes</b></h2>
+		<hr>
+		<p>Syntax: <br> <b>selector:pseudo-class { <br> } <br> </b> The Link for example have pseudo classes because they have a:hover, a:active, ... 
+		</p>
+		
+		<hr>
+		<h2 id="CSSLists"><b>CSS Lists</b></h2>
+		<hr>
+		The HTML lists can also be edited by CSS. For example: <br>
+		The <b>list-style-type: </b> circle, square, upper-roman, lower-alpha, ... Sets the look of the marker for an item. <br>
+		The <b>list-style-image:</b> url('imagename.png/gifname.gif') Sets an image or a gif or something as a item marker <br>
+		The <b>list-style-position: </b> outside, inside; Sets the bullet points either inside the list or outside.<br><br> Example for outside: <br>
+		<ul style="list-style-position: outside;">
+			<li>Coffee</li>
+			- black, sugared
+			<li>Tea</li>
+		</ul>
+		<br>
+		Example for inside: <br>
+		<ul style="list-style-position: inside">
+			<li>Coffee</li>
+			- black, sugared
+			<li>Tea</li>
+		</ul>
+		
+		<hr>
+		<h2 id="CSSTables"><b>CSS Tables</b></h2>
+		<hr>
+		<p>Use <b>border: </b> for creating borders. Write howManyPixels styleOfBorder. For Example: <b>border: 1px solid black;</b><br>
+		Use <b>border-collapse: </b> for collapsing borders into a single border. For Example: <b>border-collapse: collapse;</b><br>
+		Use <b>padding: </b> to specify how many space there is between the border and the content. For Example: <b>padding: 15px;</b><br>
+		Use <b>text-align: </b> to align the text horizontaly. For Example: <b>text-align: left;</b><br>
+		Use <b>vertical-align: </b> to align the text verticaly. For Example: <b>vertical-align: top;</b> You write either top, middle or bottom. <br>
+		Use <b>border-spacing: </b> to set the distance between the cells. For Example: <b>border-spacing: 15px;</b><br>
+		Use <b>colspan: </b> to specify how many cells there are in one collumn. For Example: <b>&lt;th colspan: "2"&gt;This Column now has 2 cells&lt;/th&gt;</b><br>
+		Use <b>rowspan: </b> to specify how many cells there are in one row. For Example: <b>&lt;th rowspan="2"&gt;This row now has 2 cells&lt;/th&gt;</b><br>
+		Use <b>width: </b> to set the width. Write either in percent or in pixels. For Example: <b>width: 100%;</b> <br>
+		Use <b>height: </b> to set the height. Write either in percent or in pixels. For Example: <b>height: 50px;</b><br>
+		Use <b>border-bottom: </b> to set horizontal dividers. For Example: <b>border-bottom: 1px solid #ddd;</b><br>
+		Use the <b>:hover</b> to do somthing on hover. For Example: <b>tr:hover { background-color: #f5f5f5; }</b><br>
+		For zebra striped table use the <b>nth-child(even/odd)</b> and add a background-color. For Example: <b>tr:nth-child(even) { background-color: #f2f2f2;</b><br>
+		Use <b>color: </b> to set the data color. For Example: <b>color: white;</b><br>
+		Use <b>background-color: </b> to set the cell color. For Example: <b>background-color: green;</b><br>
+		To create a responsive table(scroll bar if table is to small) set the table inside a &lt;div&gt; container element and write the property <b>overflow-x:auto;</b>. For Example: <b>&lt;div style="overflow-x:auto"&gt; &lt;table&gt; // table elements &lt;/table&gt; &lt;/div&gt;</b><br>
+		<br>
+		You can also do special designs to make tables more indivudual. There is the option to add CSS properties to only one table with a specific id. To use this you write: <b>&lt;table id="t01"&gt;</b> and then you can use css properties that change only this table. To do so write: <b>table#t01 { //properties here }</b> or write <b>table#01 th { //properties here }</b><br>
+		
+		/p>
+		
+	</body>
+</html>

@@ -1,0 +1,20 @@
+body {
+	background-color: #EEEEEE;
+}
+
+a {
+	color:blue;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	margin-left: 250px;
+	color: gray;
+}
+
+tab {
+	margin-left: 20px;
+}
